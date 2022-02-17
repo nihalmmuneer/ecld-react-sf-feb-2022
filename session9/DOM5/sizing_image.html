@@ -1,0 +1,28 @@
+<!-- Assignment-5 -->
+<!-- onClicking + button width of the image should be changed by +5px and onClicking - button width of the image should be decreased by 5px, By default the width should be 100px -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sizing_image.css">
+    <title>Assignment-5</title>
+</head>
+<body>
+    <h1>Sizing An Image</h1>
+    <p>Increase the width of an image by<br>clicking the plus button and decrease by
+    <br>  clicking the Minus button.For every<br>action,the image increases or decrease by 5px.</p>
+    <img src="Cute_Dog_Puppy_Image.jpg" alt="dog Image" id="image">
+    <p>Width:100px</p>
+    <div class="border">
+        <div class="buttons">
+            <button id="button1" onclick="decrease()">-</button>
+            <button id="button3">| 5px |</button>
+            <button id="button2" onclick = "increase()">+</button>
+        </div>
+    </div>    
+</body>
+<script src="sizing_image.js"></script>
+</html>

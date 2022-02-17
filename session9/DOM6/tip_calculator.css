@@ -1,0 +1,35 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+body {
+    background-color:lightsteelblue;
+}
+h1 {
+    text-align: center;
+    color:cornflowerblue;
+}
+p {
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top:30px;
+}
+input {
+    display: flex;
+    margin: 0 auto;
+}
+#calc {
+    background-color:dodgerblue;
+    color:white;
+    display:flex;
+    margin:0 auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    height:30px;
+    align-items: center;
+}
+#TotalBill {
+    color:red;
+}

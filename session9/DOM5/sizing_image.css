@@ -1,0 +1,67 @@
+h1 {
+    font-size: 50px;
+    text-align: center;
+    height:auto;
+    min-width: fit-content;
+}
+p {
+    text-align: center;
+    font-size: 17px;
+}
+
+
+img {
+
+    width:100px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+body {
+    background-color: #ccc;
+}
+
+
+
+div.buttons {
+    
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+     margin: 50px auto;
+    background: #ccc;
+    box-shadow: 4px 3px 8px 1px #969696;
+  	-webkit-box-shadow: 4px 3px 8px 1px #969696;
+      height:50px;
+    width: fit-content;
+      
+}
+#button1 {
+    height:auto;
+    width:20px;
+    /* background-color: grey; */
+   border:none;
+   background-color: whitesmoke;
+}
+#button1:hover {
+    background-color: #969696;
+}
+#button2 {
+    height:auto;
+    width:20px;
+    border:none;
+    background-color: whitesmoke;
+    /* background-color: grey; */
+   
+}
+#button2:hover {
+    background-color: #969696;
+}
+#button3 {
+    height:auto;
+    width:50px;
+    border:none;
+    background-color: whitesmoke;
+}
