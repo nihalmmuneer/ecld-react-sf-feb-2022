@@ -26,6 +26,7 @@ function Stop(){
     clearInterval(timeInterval);
 }
 function Reset(){
+    Stop();
     timer = 0;
     ms.textContent = "00";
     sec.textContent = "00";
