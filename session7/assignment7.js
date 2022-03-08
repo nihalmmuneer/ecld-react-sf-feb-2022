@@ -16,20 +16,23 @@ for(let keys in obj){
 //Assignment-2
 //Given a string , calculate the occurrence of each and every character and print the output.
 
-let count = 1;
+
+// let count = 1;
 let obj1 = {};
-let str = 'edstem';
+let str = 'edstemmem';
 for( let i = 0 ; i < str.length; i++){
+    
     if(!obj1[str[i]]){
-        obj1[str[i]] = count;
+        obj1[str[i]] = 1
     }else{
-        obj1[str[i]] = count + 1;
+        obj1[str[i]] = obj1[str[i]] + 1 ;
     }
+
 }
 console.log('\n');
 // console.log(obj1);
 for(let s in obj1){
-    console.log(s+" - "+obj1[s] );
+    console.log(s+" - "+obj1[s]);
 }
 
 //Assignment-3
