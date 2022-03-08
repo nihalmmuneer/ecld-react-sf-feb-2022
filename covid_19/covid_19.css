@@ -32,7 +32,6 @@ button {
     box-shadow: 0 4px 8px 0 rgba(8, 1, 1, 0.651);
     box-shadow: 4px 3px 8px 1px rgb(202, 201, 201);
     -webkit-box-shadow: 4px 3px 8px 1px rgb(17, 9, 9);
-    /* transition: 0.3s; */
     width: 48%;
     margin: 0 auto;
   }
