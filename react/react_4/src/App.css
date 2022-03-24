@@ -1,0 +1,27 @@
+.body{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  margin:100px 300px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 32px 0 rgba(66, 2, 2, 0.02), 0 8px 64px 0 rgb(10 14 29 / 8%);
+}
+h1 {
+  font-size: 60px;
+  color:red;
+}
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  padding:10px; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: none;
+  margin: 0 2rem;
+  font-size: 7em;
+  box-shadow: 0 4px 32px 0 rgb(10 14 29 / 2%), 0 8px 64px 0 rgb(10 14 29 / 8%);
+  cursor: pointer;
+}

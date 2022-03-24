@@ -1,0 +1,22 @@
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+.grid-container {
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    background-color: #ffffff;
+    padding-bottom: 0px;
+    padding-top:0px;
+  }
+  .grid-item {
+    margin-top: 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgb(7, 5, 5);
+    padding: 10px ;
+    text-align: center;
+   
+   
+  }
