@@ -1,0 +1,78 @@
+ body {
+    background: url('./img/git.jpg');  
+ }
+ h1 {
+     margin-right: 50px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#input{
+    margin-top:15px;
+    box-shadow: 4px 3px 8px 1px #2b2a2a;
+    -webkit-box-shadow: 4px 3px 8px 1px #050505;
+    text-align: center;  
+    height: 100%;
+    width: 30%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #222;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+    margin-left: 350px;
+    padding: 3px;
+    padding-bottom: 5px;
+  } 
+   button {
+        box-shadow: 4px 3px 8px 1px #2b2a2a;
+        -webkit-box-shadow: 4px 3px 8px 1px #2b2a2a;
+        text-align: center;
+        font-size: 14px;
+        padding:10px;
+        margin:5px;
+        width: 10%;
+        background-color: grey;
+        border-radius:0px;
+        cursor:pointer;
+        transition: 0.3s;
+  } 
+#search {
+    background-color: rgb(12, 107, 136);
+}
+  
+   .users{
+      margin-top: 30px;
+  } 
+  #more {
+      width:fit-content;
+      background-color: rgb(131, 58, 10);
+  } 
+  #moreInfo {
+      margin-top:30px;
+      text-align: center;
+      width:50%;
+      margin-left:300px;
+      border:3px solid black;
+  }
+  th {
+      text-align: center;
+      padding: 7px;
+      border:1px solid black;
+  }
+  td {
+      text-align: center;
+      border:1px solid black;
+  }
+  #table {
+    box-shadow: 4px 3px 8px 1px #2b2a2a;
+    -webkit-box-shadow: 4px 3px 8px 1px #2b2a2a;
+      background-color: whitesmoke;
+      border:3px solid black;
+      margin-top:30px;
+      width:60%;
+      margin-left: 230px;
+  }
+  #table:hover {
+     background-color: rgb(211, 208, 208);
+  }
+  

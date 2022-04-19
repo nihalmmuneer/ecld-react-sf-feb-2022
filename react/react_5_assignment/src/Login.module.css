@@ -1,0 +1,127 @@
+body {
+    background: url('./img/todo9.jpg'); 
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Poppins:400,500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+  }
+.bgImg{
+    /* background: url('bg.jpg'); */
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .bgImg:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* background: rgba(0,0,0,0.7); */
+     background: url('./img/todo4.jpg'); 
+  }
+  .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    text-align: center;
+    padding: 10px 32px;
+    width: 370px;
+    transform: translate(-50%,-50%);
+    background: rgba(255,255,255,0.04);
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+  }
+  .content h1{
+    color: rgb(2, 1, 1);
+    font-size: 33px;
+    font-weight: 600;
+    margin: 0 0 35px 0;
+    font-family: 'Montserrat',sans-serif;
+  }
+  .field{
+    margin-top:16px;  
+    position: relative;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    background: rgba(255,255,255,0.94);
+  }
+    span{
+    display: flex; 
+    flex-direction: row;   
+    position: absolute;  
+    color: #222;
+    width: 40px;
+    line-height: 45px;
+    margin-right: 800px;
+    left:0;
+    top:15px;
+    
+  }
+  .field input{
+    box-shadow: 4px 3px 8px 1px #2b2a2a;
+    -webkit-box-shadow: 4px 3px 8px 1px #050505;
+    text-align: center;  
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #222;
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+  }
+  .fieldSpace{
+    margin-top: 16px;
+  }
+
+  .pass{
+    text-align: left;
+    margin: 10px 0;
+  }
+  .pass a{
+  color: white;
+  text-decoration: underline;
+  font-family: 'Poppins',sans-serif;
+}
+.field input[type="submit"]{
+    box-shadow: 4px 3px 8px 1px #2b2a2a;
+    -webkit-box-shadow: 4px 3px 8px 1px #050505;
+    background: #3498db;
+    border: 1px solid #2691d9;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Montserrat',sans-serif;
+  }
+  .field input[type="submit"]:hover{
+    background: #2691d9;
+  }
+  .signup{
+    font-size: 15px;
+    color: rgb(175, 17, 17);
+    font-family: 'Poppins',sans-serif;
+    text-align: left;
+    margin: 40px 0;
+
+  }
+  .signup a{
+    color: #ffd1059a;
+    text-decoration: none;
+  }
+  .signup a:hover{
+    text-decoration: underline;
+  }
+  option {
+    width:50%;
+    text-align: center;
+  }
+  

@@ -1,0 +1,9 @@
+#page { 
+   display: block;
+   float: left;
+   width: max-content;
+}
+#tpage {
+    margin-top: 5px;
+    margin-left:580px;
+}

@@ -1,0 +1,101 @@
+#body{
+    text-align: center;
+    background-color: rgb(32, 65, 102);
+}
+h1{
+    font-size: 50px;
+    margin-top: 50px;
+    font-family:serif;
+    padding-top: 10px;
+    text-align: center;
+}
+#myInput {
+    text-align: center;
+    margin-top:10px;
+    box-shadow: 4px 3px 8px 1px #2b2a2a;
+    -webkit-box-shadow: 4px 3px 8px 1px #050505;
+    margin-left:90px;
+    width:60%;
+    border:none;
+    padding:10px;
+    padding-right:0px;
+    border-radius: none;
+    font-size: 16px;
+}
+button {
+    box-shadow: 4px 3px 8px 1px #2b2a2a;
+    -webkit-box-shadow: 4px 3px 8px 1px #2b2a2a;
+    text-align: center;
+    font-size: 14px;
+    padding:10px;
+    margin:5px;
+    width: 10%;
+    background-color: grey;
+    border-radius:0px;
+    cursor:pointer;
+    transition: 0.3s;
+    
+}
+ul li {
+    display: flex;
+    margin:20px 90px;
+    box-shadow: 4px 3px 8px 1px #2b2a2a;
+    -webkit-box-shadow: 4px 3px 8px 1px #000000;
+    width:72%;
+    list-style-type: none;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 17px 70px;
+    font-size: 18px;
+    transition: 0.2s;
+}
+ul li:nth-child(odd){
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+}
+ul li:hover{
+    background-color: rgb(136, 141, 151);
+}
+ul li:nth-child(even){
+    background-color: rgb(136, 141, 151);
+    margin-bottom: 20px;
+}
+#span{
+    display:flex;
+    position: absolute;
+    flex-direction: row;
+    margin-left:520px;
+    top:0px;
+
+
+}
+#content {
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: 130px;
+    box-shadow: 4px 3px 8px 1px #000000;
+    -webkit-box-shadow: 4px 3px 8px 1px #01162e;
+    width:80%;
+    padding-bottom:30px;
+}
+
+ #complete{
+    width:100%;
+    background-color: green;
+    } 
+ #delete {
+    width:100%;
+    background-color: red;
+   } 
+#edit {
+    width:100%;
+} 
+#update {
+    background-color: rgb(207, 65, 8);
+}
+#add {
+    background-color: rgb(1, 64, 124);
+}
+#logout {
+    text-align: center;
+    margin-left:800px;
+}
